@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+	int lo = 0, hi = n , ans = 0;
+	while (lo <= hi){
+		int mid = (lo + hi) >> 1;
+		if (pos(mid)){
+			ans = mid;
+			hi = mid - 1;
+		}
+		else{
+			lo = mid + 1;
+		}
+	}
+
+	cout<<ans<<'\n';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>binary_search</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

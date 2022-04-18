@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Babel",
+		"Color Highlighter",
+		"ColorSchemeEditor",
+		"ColorSchemeSelector",
+		"CSS3",
+		"HTML5",
+		"Package Control",
+		"Sublime ES7 React Redux ReactNative JS snippets",
+		"Terminus",
+		"TypeScript",
+	],
+	"in_process_packages":
+	[
+	],
+}

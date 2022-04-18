@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+         cout << fixed << setprecision(25);
+         cerr << fixed << setprecision(10);
+
+auto start = std::chrono::high_resolution_clock::now();
+    
+    int t = 1;
+    cin >> t;
+    while (t--) {
+        solve();
+    }
+   
+    auto stop = std::chrono::high_resolution_clock::now(); 
+    auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start);
+     cerr << "Time taken : " << ((long double)duration.count())/((long double) 1e9) <<"s "<< endl;     
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>clock</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

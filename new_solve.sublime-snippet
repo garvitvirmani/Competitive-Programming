@@ -1,0 +1,63 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#ifndef ONLINE_JUDGE
+#include "DEBUG.h"
+#else
+#define debug(x)
+#endif  
+ 
+#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define mod 998244353 //1000000007
+#define endl "\n"
+#define pb push_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define sz(x) ((int)(x).size())
+#define all(x) (x).begin(), (x).end()
+#define make_unique(x) sort(all((x))); (x).resize(unique(all((x))) - (x).begin())
+#define ar array
+#define vc vector
+#define vi vector<int>
+
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double lld;
+
+ll _ceil(ll a,ll b) {return a%b==0 ? a/b:a/b+1;} 
+
+/*---------------------------------------------------------------------*/ 
+const int mxn=1e5;
+ll n,m,k,t; 
+ 
+ 
+void solve(){  
+
+}
+ 
+ 
+ 
+
+int main() {
+fastio();
+#ifndef ONLINE_JUDGE
+    freopen("Error.txt", "w", stderr);
+#endif
+    
+    int t = 1;
+     cin >> t;
+    while (t--) {
+        solve();
+    }
+
+     return 0;}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>new_solve</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
